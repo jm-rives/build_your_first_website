@@ -1,34 +1,27 @@
 header, .full-width {
-  padding: 10%;
+  padding: 5%;
   width: 100%;
   background-color: #EE1010
+
 }
 
 html {
   background-color: #10EEEE
 }
 
-
-
+/* removes bullets */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav{
-  text-align: left;
-  text-transform: uppercase;
-  font-family: "Monoid", "Times New Roman" Times, Serif;
-  
-}
-
-nav a:hover{
+nav a: hover {
   background: #00B7C0;
   color: #CAE1FF;
 }
 
-nav a:visited{
+nav a: visited{
   background: #3232CC;
   color: #00B7C0;
 }
@@ -37,8 +30,16 @@ nav a:visited{
 li, .bar {
   text-decoration: none;
   display: inline;
+  padding: 10px;
   margin: 10px;
+  background: gray;
+  float: bottom;
 
 }
 
+li, .non-bar {
+  text-decoration: none;
+  display: block;
+  background: none;
+}
 
